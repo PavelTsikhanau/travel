@@ -1,0 +1,174 @@
+
+
+.header-mobile {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 32px;
+    margin: 0 auto;
+    padding-top: 43px;
+
+    z-index: 2;
+}
+
+.header-desktop {
+    display: none;
+}
+
+.plan-your-trip {
+    height: 176px;
+    margin-top: -75px;
+    padding-top: 75px;
+     
+}
+
+#plan-text-1 {
+    display: none;
+}
+
+#plan-text-2 {
+    display: none;
+}
+
+.search-container {
+    width: 360px;
+    height: 48px;
+
+    margin: 67px 15px 0px;
+}
+
+.plan-your-trip {
+    background-image: url(./images/garrett-parker-DlkF4-dbCOU-unsplash-2.jpeg);
+}
+
+.plansearch-text {
+    width: 226.01px;
+    height: 11.12px;
+   
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #F2785C;
+}
+
+.plansearch-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+
+    width: 92px;
+    height: 30px;
+   
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+}
+
+.plansearch-button-text {
+    width: 74px;
+    height: 15px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+h3 {
+    width: 214px;
+    height: 19px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #F2785C;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    height: 153px;
+    padding: 20px;
+}
+
+.steps-square {
+    width: 70px;
+    height: 70px;
+}
+
+.steps-mobile-img {
+    width: 40px;
+    height: 30px;
+}
+
+.steps-text {
+    width: 94px;
+    height: 22px;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #0D606F;
+}
+
+.display-none {
+    display: none;
+}
+
+.destinations {
+}
+  
+
+.destinations-slider-container {
+    display: flex;
+    /* padding-top: 100px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+    overflow: hidden;
+    background-image: url(./images/Rectangle-26.jpeg);
+    width: 360px;
+    height: 289px;
+
+}
+
+.story-text {
+    width: 100%;
+}
+
+.story-content {
+    width: 100%;
+}
+
+.story-image {
+    display: none;
+}
+
+.mobile-story-image {
+    display: flex;
+}
