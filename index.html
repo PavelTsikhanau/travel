@@ -7,31 +7,33 @@
     <title>Travel Portal</title>
     <link rel="shortcut icon" href="./images/Vector-title.ico" type="image/x-icon">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="style-mobile.css" rel="stylesheet" media="screen and (max-width: 750px)">
+    <link href="style-mobile.css" rel="stylesheet" media="screen and (max-width: 390px)">
     <script defer src="index.js"></script>
 </head>
 <body>
     <div class="travel-site">
         <header>
             <div class="header-desktop">
-                <div id="header-logo">
-                    <img src="./images/Vector-header.svg" alt="Vector-header">
-                    <h1 id="header-text">Travel Portal</h1>
-                </div>
-                <nav>
-                    <ul class="nav-menu">
-                        <li><a class="nav-style" href="#plan-text-1">How It Works</a></li>
-                        <li><a class="nav-style" href="#steps">Plan Your Trip</a></li>
-                        <li><a class="nav-style" href="#destinations">Destinations</a></li>
-                        <li><a class="nav-style" href="#stories">Travel Stories</a></li>
-                    </ul>
-                </nav>
-                <button id="header-button">
-                        <p id="header-button-text">Login</p>
-                </button>
+                <div class="header-content">
+                    <div class="header-logo">
+                        <img src="./images/Vector-header.svg" alt="Vector-header">
+                        <h1 class="header-text">Travel Portal</h1>
+                    </div>
+                    <nav>
+                        <ul class="nav-menu">
+                            <li><a class="nav-style" href="#plan-text-1">How It Works</a></li>
+                            <li><a class="nav-style" href="#steps">Plan Your Trip</a></li>
+                            <li><a class="nav-style" href="#destinations">Destinations</a></li>
+                            <li><a class="nav-style" href="#stories">Travel Stories</a></li>
+                        </ul>
+                    </nav>
+                    <button class="header-button">
+                            <p class="header-button-text">Login</p>
+                    </button>
+                </div>         
             </div>
             <div class="header-mobile">
-                <img src="./images/Vector-header.svg" alt="vector-header">
+                <img class="header-mob-img" src="./images/Vector-headerlogo.svg" alt="vector-header">
                 <img class="burger-opener" src="./images/burger-menu-outline.svg" alt="burger-close">
                 <div class="mobile-menu hidden">
                     <button class="burger-closer"><img src="./images/clarity_window-close-line.svg" alt="12"></button>
@@ -47,6 +49,7 @@
         <main>
             <div class="sections-container">
                 <section class="plan-your-trip">
+                    <div class="plan-y-t-content">
                         <div id="plan-text-1">
                             <h2>Explore the beauty of the World</h2>
                         </div>
@@ -58,7 +61,8 @@
                             <button class="plansearch-button">
                                 <p class="plansearch-button-text">Start Planning</p>
                             </button>
-                        </div>             
+                        </div>          
+                    </div>
                 </section>
                 <section class="steps">
                     <h3>3 STEPS TO THE PERFECT TRIP</h3>
@@ -106,8 +110,8 @@
                             <p id="destinations-button-text">Find More</p>
                         </button>
                 </section>
-                <section id="stories">
-                    <div id="stories-header">
+                <section class="stories">
+                    <div class="stories-header">
                         <h3>TRAVEL STORIES</h3>
                     </div>
                     <div class="stories-background-image">
