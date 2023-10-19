@@ -315,6 +315,10 @@ h3 {
     color: #0D606F;
 }
 
+.destinations-mobile {
+    display: none;
+}
+
 .destinations {
     display: flex;
     padding-top: 100px;
@@ -420,7 +424,7 @@ h3 {
     flex-grow: 0;
 }
 
-#destinations-button {
+.destinations-button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -527,7 +531,11 @@ h3 {
     color: #0D606F;
 }
 
-.story-content {
+.story-content-mobile {
+    display: none;
+}
+
+.story-content-desktop {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
