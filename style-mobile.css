@@ -219,8 +219,8 @@ h3 {
     
     gap: 10px;
     
-    width: 228px;
-    height: 59px;
+    width: 92px;
+    height: 30px;
     
     background: #0D606F;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -234,6 +234,43 @@ h3 {
     justify-content: center;
     align-items: center;
     padding-top: 1rem; 
+}
+
+#stories-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10px;
+    width: 92px;
+    height: 30px;
+    
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+#stories-button-arrow {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#stories-button-text {
+    height: 32px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 .stories-background-image {

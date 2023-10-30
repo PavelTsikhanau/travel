@@ -319,7 +319,7 @@ h3 {
     display: none;
 }
 
-.destinations {
+.destinations-desktop {
     display: flex;
     padding-top: 100px;
     flex-direction: column;
@@ -332,32 +332,43 @@ h3 {
 .destinations-slider-container {
     overflow: hidden;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    gap: 60px;
+    width: 1440px;
+    
     padding-top: 46px;
     padding-left: 10px;
 }
 
-.destinations-slide-1 {
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 60px;
+    left: 0;
+}
+
+.destinations-slide-spain {
     position: relative;
     width: 800px;
     height: 800px;
     background-image: url(./images/Rectangle-23.jpeg);
 }
 
-.destinations-slide-2 {
+.destinations-slide-japan {
     position: relative;
     width: 800px;
     height: 800px;
     background-image: url(./images/Rectangle-24.jpeg);
 }
 
-.destinations-slide-3 {
+.destinations-slide-usa {
     position: relative;
     width: 800px;
     height: 800px;
     background-image: url(./images/Rectangle-25.jpeg);
 }
+
 
 .destinations-main-image {
     border-radius: 16px;
