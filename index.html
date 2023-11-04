@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel Portal</title>
     <link rel="shortcut icon" href="./images/Vector-title.ico" type="image/x-icon">
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen and (max-width: 1440px)">
     <link href="style-mobile.css" rel="stylesheet" media="screen and (max-width: 390px)">
-    <script defer src="index.js"></script>
 </head>
 <body>
     <div class="travel-site">
@@ -91,28 +90,33 @@
                     <div class="destinations-desktop">
                         <h3>POPULAR DESTINATIONS</h3>
                         <div class="destinations-slider-container">
-                            <div class="wrapper">
-                                <div class="destinations-slide-usa">
-                                    <p class="destinations-slider-text">USA</p>
+                            <div class="destinations-wrapper"> 
+                                <div class="destinations-slide">
+                                    <img class="destinations-image" src="./images/Rectangle-25.jpeg" alt="">
+                                    <p>USA</p>
+                                </div> 
+                                <div class="destinations-slide">
+                                    <img class="destinations-image" src="./images/Rectangle-23.jpeg" alt="">
+                                    <p>Spain</p>
                                 </div>
-                                <div class="destinations-slide-spain">
-                                    <p class="destinations-slider-text">Spain</p>
+                                <div class="destinations-slide">
+                                    <img class="destinations-image" src="./images/Rectangle-24.jpeg" alt="">
+                                    <p>Japan</p>
                                 </div>
-                                <div class="destinations-slide-japan">
-                                    <p class="destinations-slider-text">Japan</p>
+                                <div class="destinations-slide">
+                                    <img class="destinations-image" src="./images/Rectangle-25.jpeg" alt="">
+                                    <p>USA</p>
                                 </div>
-                                <div class="destinations-slide-usa">
-                                    <p class="destinations-slider-text">USA</p>
-                                </div>
-                                <div class="destinations-slide-spain">
-                                    <p class="destinations-slider-text">Spain</p>
+                                <div class="destinations-slide">
+                                    <img class="destinations-image" src="./images/Rectangle-23.jpeg" alt="">
+                                    <p>Spain</p>
                                 </div>
                             </div>
                         </div>
-                        <div id="destinations-indicator">
-                            <div id="destinations-indicator-1"></div>
-                            <div id="destinations-indicator-2"></div>
-                            <div id="destinations-indicator-3"></div>
+                        <div class="destinations-indicator-container">
+                            <div class="destinations-indicator"></div>
+                            <div class="destinations-indicator"></div>
+                            <div class="destinations-indicator"></div>
                         </div>
                         <button class="destinations-button">
                             <img id="destinations-button-arrow" src="./images/Arrow.svg" alt="image-arrow"> 
@@ -120,20 +124,31 @@
                         </button>
                     </div>
                     <div class="destinations-mobile">
-                        <div class="section-header">
+                        <div class="destination-header">
                             <h3>POPULAR DESTINATIONS</h3>
                         </div>                       
-                        <div class="destinations-slider-mob">
-                            <div class="destinations-slide-name"></div>
-                            <div class="left"></div>
-                            <div>
-                                <img class="destinations-slide-image" src="./images/Rectangle-26.jpeg" alt="">
+                        <div class="destinations-slider-container">
+                            <div class="destinations-wrapper">
+                                <div class="destinations-slide">
+                                    <img src="./images/Rectangle-26.jpeg" alt="spain">
+                                    <p>Spain</p>
+                                    <div class="destinations-left-arrow">
+                                        <img src="./images/arrow-left-mobile.png" alt="arrow">
+                                    </div>
+                                    <div class="destinations-right-arrow">
+                                        <img src="./images/arrow-right-mobile.svg" alt="">
+                                    </div>
+                                    <div class="destinations-indicator-container">
+                                        <div class="destinations-indicator"></div>
+                                        <div class="destinations-indicator"></div>
+                                        <div class="destinations-indicator"></div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="destinations-indicator"></div>
                         </div>
-                        <button class="destinatons-button">
-                            <img id="destinations-button-arrow" src="./images/Arrow.svg" alt="image-arrow"> 
-                            <p id="destinations-button-text">Find More</p>
+                        <button class="destinations-button">
+                            <img src="./images/bi_arrow-right.svg" alt="image arrow"> 
+                            <p>Find More</p>
                         </button>
                     </div>
                 </section>
@@ -147,7 +162,7 @@
                                 <img class="story-image" src="./images/Rectangle_29.jpeg" alt="story1">
                                 <img class="mobile-story-image" src="./images/Rectangle-15.jpeg" alt="story1">
                                 <div class="story-text">
-                                    <h4>10 Photos of Attractive Thailand</h4>
+                                    <span>10 Photos of Attractive Thailand</span>
                                     <p class="story-content-desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<a href="#">Read More</a></p>
                                     <p class="story-content-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a href="#">Read More</a></p>
                                 </div>
@@ -156,7 +171,7 @@
                                 <img class="story-image" src="./images/Rectangle_30.jpeg" alt="story2">
                                 <img class="mobile-story-image" src="./images/Rectangle-16.jpeg" alt="story2">
                                 <div class="story-text">
-                                    <h4>Canyonlands National Park, Utah</h4>
+                                    <span>Canyonlands National Park, Utah</span>
                                     <p class="story-content-desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<a href="#">Read More</a></p>
                                     <p class="story-content-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a href="#">Read More</a></p>
                                 </div>
@@ -165,7 +180,7 @@
                                 <img class="story-image" src="./images/Rectangle_31.jpeg" alt="story3">
                                 <img class="mobile-story-image" src="./images/Rectangle-27.jpeg" alt="story3">
                                 <div class="story-text">
-                                    <h4>I left my heart in the Mountains!</h4>
+                                    <span>I left my heart in the Mountains!</span>
                                     <p class="story-content-desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<a href="#">Read More</a></p>
                                     <p class="story-content-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a href="#">Read More</a></p>
                                 </div>
@@ -174,14 +189,14 @@
                                 <img class="story-image" src="./images/Rectangle_32.jpeg" alt="story4">
                                 <img class="mobile-story-image" src="./images/Rectangle-17.jpeg" alt="story4">
                                 <div class="story-text">
-                                    <h4>The Longest journey in my life!</h4>
+                                    <span>The Longest journey in my life!</span>
                                     <p class="story-content-desktop">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...<a href="#">Read More</a></p>
                                     <p class="story-content-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... <a href="#">Read More</a></p>
                                 </div>
                             </div>
                             <button id="stories-button">
-                                <img id="stories-button-arrow" src="./images/Arrow.svg" alt="image-arrow">
-                                <p id="stories-button-text">See More</p>
+                                <img src="./images/bi_arrow-right.svg" alt="arrow">
+                                <p>See More</p>
                             </button>
                         </div>
                     </div>
@@ -212,6 +227,28 @@
                     </li>
                 </ul>
         </footer>
+        <div class="popup hidden">
+            <div class="popup-body">
+                <div class="popup-content">
+                    <span class="popup-title">Log in to your account</span>
+                    <button class="login-facebook">
+                        <img class="facebook-logo" src="./images/icon-facebook.svg" alt="facebook logo">
+                        <span class="facebook-text">Sign In with Facebook</span>
+                    </button>
+                    <button class="login-google">
+                        <img class="google-logo" src="./images/icon-google.svg" alt="google logo">
+                        <span class="google-text">Sign In with Google</span>
+                    </button>
+                    <div id="popup-line">
+                        <div class="popup-line"></div>
+                        <span class="popup-or">or</span>
+                        <div class="popup-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <script defer src="index.js"></script>
 </body>
 </html>
