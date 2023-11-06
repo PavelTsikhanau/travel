@@ -355,7 +355,6 @@ h3 {
     height: 800px;
     left: 0;
     z-index: 1;
-    border: solid black 2px;
 }
 
 .destination-click-right {
@@ -364,7 +363,6 @@ h3 {
     height: 800px;
     right: 0;
      z-index: 1;
-    border: solid black 2px;
 }
 
 .destinations-slide {
