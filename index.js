@@ -8,6 +8,8 @@ const wrapper = document.querySelector('.destinations-wrapper'),
 //окрашиваем индикатор 
 indicator[index].style.background = '#F2785C';
 
+
+//перелистывание слайдов
 function turnTheSlideRight () {
   offset += 860;
   indicator[index].style.background = 'rgba(242, 120, 92, 0.5)';
@@ -35,9 +37,8 @@ function turnTheSlideLeft () {
 document.querySelector('.destination-click-right').addEventListener('click', turnTheSlideRight);
 document.querySelector('.destination-click-left').addEventListener('click', turnTheSlideLeft);
 
-console.log(indicator[index], slide[index+1]);
 
-
+//поп-ап
 const loginBtn = document.querySelector('.header-button');
 loginBtn.addEventListener('click', function () {
   document.querySelector('.popup').classList.remove('hidden');
